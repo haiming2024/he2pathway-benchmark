@@ -11,6 +11,7 @@ The modifications add **pathway-level prediction** capability (via AUCell/UCell 
 ---
 
 ## Repository Structure
+```
 he2pathway-benchmark/
 │── Hist2ST/
 │ ├── data/ # Raw HER2ST data (download via download.sh)
@@ -54,7 +55,7 @@ he2pathway-benchmark/
 │
 │── data_pathway/ # Precomputed pathway activity scores (AUCell / UCell, GO / KEGG / MSigDB)
 │── README.md
-
+```
 
 ---
 
