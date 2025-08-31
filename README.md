@@ -99,7 +99,7 @@ cd ../../THItoGene/data && bash download.sh
 Run gunzip *.gz in the dir THItoGene/data/her2st/data/ST-cnts/ to unzip the gz files
 
 ```
-Usage
+### Usage
 All scripts (`selective_submit.sh`, `selective_test.sh`, `result_summary.sh`) must be run **inside each model’s folder**.
 The dataset has **32 sections in total**, indexed **0–31**.  
 Training and testing use a **section-wise leave-one-out strategy**.  
