@@ -10,6 +10,16 @@ The modifications add **pathway-level prediction** capability (via AUCell/UCell 
 
 ---
 
+## Original Repositories
+This project builds on the following open-source works:
+
+- [Hist2ST (biomed-AI)](https://github.com/biomed-AI/Hist2ST)  
+- [HisToGene (maxpmx)](https://github.com/maxpmx/HisToGene/tree/main)  
+- [THItoGene (yrjia1015)](https://github.com/yrjia1015/THItoGene/tree/main)  
+
+---
+---
+
 ## Repository Structure
 ```
 he2pathway-benchmark/
@@ -24,8 +34,7 @@ he2pathway-benchmark/
 │ ├── selective_submit.sh # Training automation
 │ ├── selective_test.sh # Testing automation
 │ ├── result_summary.sh # Summarize results to CSV
-│ └── (original code from Hist2ST
-)
+│ └── (original code from Hist2ST)
 │
 │── HisToGene/
 │ ├── data/
