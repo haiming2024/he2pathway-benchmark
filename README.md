@@ -72,7 +72,6 @@ Additionally, each model folder contains:
 - `selective_submit.sh` → run training across folds and scoring methods  
 - `selective_test.sh` → run evaluation  
 - `result_summary.sh` → aggregate results into a summary CSV (saved inside each `results/` folder)  
-- `results/` → stores experiment outputs for each method separately  
 
 ---
 
