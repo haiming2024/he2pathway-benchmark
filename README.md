@@ -86,7 +86,7 @@ Additionally, each model folder contains:
 
 ## Data Preparation
 
-### 1. Raw HER2ST data
+### Raw HER2ST data
 Each model has its own `data/` folder.  
 Run the following inside each model’s data folder to download/prepare raw data:
 
@@ -99,8 +99,10 @@ cd ../../THItoGene/data && bash download.sh
 Run gunzip *.gz in the dir THItoGene/data/her2st/data/ST-cnts/ to unzip the gz files
 
 Usage
-
-Run all scripts inside each model’s folder.
+All scripts (`selective_submit.sh`, `selective_test.sh`, `result_summary.sh`) must be run **inside each model’s folder**.
+The dataset has **32 sections in total**, indexed **0–31**.  
+Training and testing use a **section-wise leave-one-out strategy**.  
+You can specify any fold range within `0–31`.
 
 bash selective_submit.sh          # all folds, all scoring
 bash selective_submit.sh 0 5      # folds 0–5
