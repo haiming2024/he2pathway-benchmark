@@ -98,12 +98,13 @@ Run gunzip *.gz in the dir HisToGene/data/her2st/data/ST-cnts/ to unzip the gz f
 cd ../../THItoGene/data && bash download.sh
 Run gunzip *.gz in the dir THItoGene/data/her2st/data/ST-cnts/ to unzip the gz files
 
+---
 Usage
 All scripts (`selective_submit.sh`, `selective_test.sh`, `result_summary.sh`) must be run **inside each model’s folder**.
 The dataset has **32 sections in total**, indexed **0–31**.  
 Training and testing use a **section-wise leave-one-out strategy**.  
 You can specify any fold range within `0–31`.
-
+---
 bash selective_submit.sh          # all folds, all scoring
 bash selective_submit.sh 0 5      # folds 0–5
 bash selective_submit.sh 0 5 AUCell
